@@ -1,0 +1,8 @@
+/* 样式初始话*/
+body,ul,ol,li,form,input,h1,h2,h3,h4,h5,h6,textarea,iframe,img{ margin:0;padding: 0;  }
+a{outline: none;text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: middle;border: none;}
+input{ outline: none; }
+.clear:after{ content: "";display: block;clear: both;zoom:2; }

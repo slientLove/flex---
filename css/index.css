@@ -1,0 +1,66 @@
+body{ background: #ccc;}
+#wrap{ width: 1200px;margin: 0 auto; height: 600px;}
+#top{ width: 400px; display: flex;flex-direction: column;}
+#top h3{ font-family: "微软雅黑"; }
+#top span a{ color: #4097f9;font-size: 12px;font-family: "微软雅黑"; }
+#top p{ font-size: 12px; }
+#show-pic a{ margin-top: 200px;background: none;}
+#content{ background: #fff;height: 4000px;margin-top: 20px; padding-left: 50px;border: none;}
+#nav{ height: 68px;border-bottom: solid #ccc 1px;width: 90%;}
+#nav ul{ display: flex;height: 68px; justify-content: space-between;align-items: center;width: 80%;}
+#nav ul li{ width: 82px; height: 50px;line-height: 50px;}
+.active{ border-bottom: solid 2px #4097f9; }
+#nav li a{ font-size: 20px;color: #000; }
+#nav li a:hover{ text-decoration: none; }
+#nav .last-t{display: inline-block; text-indent: 15px;width: 100px; }
+.brief{ margin-top: 40px;margin-bottom: 40px;}
+.brief p{margin-top: 30px;font-family: "微软雅黑";line-height: 30px;font-size: 16px;}
+.brief p a{color: #4097f9;font-size: 16px;}
+.brief a:hover{ text-decoration: none; }
+.brief p.more{ margin-top: -5px; margin-bottom: 40px;}
+.brief hr{ width: 85%;margin-left: 100px;border: solid 1px #ccc; }
+
+
+#list{ display: flex; justify-content: flex-start;align-items: flex-start;}
+#list .list-l{ width: 10%;height:50px;display: flex;align-items: flex-start;justify-content: flex-start;}
+.list-l h3{font-size: 20px;}
+#list .list-r{ width: 80%;display: flex; align-items: center;flex-direction: row; }
+#list .list-r ul{ width:350px;justify-content: center;}
+#list .list-r ul li{ height: 50px;line-height: 50px;padding-left: 100px; font-size: 20px;font-family: "微软雅黑";}
+#list .last{ align-self: flex-start; }
+#nav-list{ width: 95%; height: 72px;background: #ccc; display: flex;}
+#nav-list .item-l{width: 350px;height: 72px;padding-left: 64px;line-height: 72px;font-size: 20px;}
+#nav-list .item-r{width: 550px;height: 72px; display: flex;justify-content: space-between;align-items: center;margin-left: 20px;}
+#nav-list .item-r li{ width: 100px;height: 72px;line-height: 72px;font-size: 20px;text-align: center;}
+ .item a:hover{text-decoration: none;}
+ .item  hr{ width:85%;border: solid #ccc 1px; }
+ .item-child{ display: flex;height: 172px;padding: 30px 0;flex-wrap: wrap;}
+ .item-child .img-list{ width: 350px; }
+ .img-list a{margin-left: 50px;color: #4097f9;font-size: 16px;}
+ .item-child .show-text{ width: 700px; display: flex;justify-content: space-between;align-items: center; margin-left: 20px;}
+ .show-text li{width: 100px;height: 102px; font-size: 20px;text-align: center;line-height: 102px;}
+.show-text li span{ color: #4097f9; }
+.show-text li a{ display: inline-block;height: 50px;width: 100px;border-radius: 5px;background: #4097f9;margin-top: 20px;line-height: 50px;text-align: center;color: #fff; }
+ #map img{ width: 100%; }
+
+ /* 评论区  */
+ #commom-list{ height: 120px;}
+ #commom-list ul{ display: flex;justify-content: space-between;width: 90%; margin-top: 30px;align-items: center;}
+ #commom-list ul strong{ margin-right: 24px; }
+#list-item{ width: 90%; }
+#list-item .detail-top{ display: flex;width: 150px;justify-content: space-between; align-items: flex-start;}
+
+#list-item .common-detail{border-bottom: solid #ccc 1px;padding-top: 20px;}
+.detail{ color: #4097f9;margin-top: 30px; font-size: 16px;}
+.detail span{ margin-right: 20px; }
+#commom-list{ margin-top: 30px;}
+#commom-list p{ font-size: 16px; }
+#commom-list p strong{margin-right: 30px;}
+.commom-nav{ font-size: 16px;}
+.commom-nav li span img{ display: inline-block; margin-top: -5px; height: 20px;}
+.common-detail{display: flex;flex-direction: column;}
+.common-detail span a{ color: #4097f9;font-size: 16px; }
+.common-detail span a:hover{ text-decoration: none; }
+.common-detail .support{  align-self: flex-end; justify-content: flex-end;align-items: flex-end;width: 100px;height: 30px; border-radius: 5px;border: solid 1px #ccc;margin-bottom: 10px;outline: none;}
+.support .support-l{ width: 70px; height: 29px;display: inline-block;line-height: 30px;padding-left: 10px;text-align: right;border-right: solid 1px #ccc;padding-right: 3px;color: #000;outline: none;}
+.support .support-r{ text-align: center; display: inline-block;width: 25px;color: #000;}

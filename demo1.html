@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>flex布局</title>
+	<style>
+		#div1{ height: 300px;width: 400px; border: solid 1px red; display: flex;flex-direction: column;flex-wrap: nowrap;justify-content: space-between;align-items: flex-start;align-content: flex-start;}
+		.item{ width: 200px;}
+		.item1{ order: 1;flex-shrink: 2;align-self: flex-end;}
+		.item2{ order: -2;  flex-grow: 3;}
+	</style>
+</head>
+<body>
+	<div id="div1">
+		<div class="item item1" style="background: red;height: 50px;"><p>aaaaaaaaaaaaaaaa<br/>aaaaaaaaaaaaaaaaa</p></div>
+		<div class="item item2" style="background: yellow;height: 40px;">2</div>
+		<div class="item" style="background: orange;height: 60px;">3</div>
+		<div class="item" style="background: green;height: 80px;">4</div>
+	</div>
+</body>	
+</html>
